@@ -1,6 +1,7 @@
 #!/usr/bin/python
 import RPi.GPIO as GPIO
 import time
+import sys
 
 GPIO.setmode(GPIO.BCM)
 
@@ -16,7 +17,7 @@ for i in pinList:
 
 # time to sleep between operations in the main loop
 
-SleepTimeL = 2
+SleepTimeL = 1
 
 # Set the pin
 
