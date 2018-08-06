@@ -2,7 +2,7 @@
 
 echo " -=- Getting software -=-"
 sudo apt-get update
-sudo apt-get -y install libav-tools screen lighttpd php php-cgi git
+sudo apt-get -y install libav-tools screen lighttpd php php-cgi git vim
 cd /opt
 # Changed to fork
 # sudo git clone https://github.com/Fmstrat/diy-ipmi
